@@ -10,17 +10,19 @@ body {
 }
 
 header {
-    background-color: #1b1d22;
+    color: #000;
+    background-color: #dddddd;
     padding: 20px;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 100;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 }
 
 header.scrolled {
     background-color: #000;
+    color:#fff ;
 }
 
 .logo{
@@ -41,7 +43,7 @@ header.scrolled {
 }
 
 .nav-links a {
-    color: #f5f5f7;
+    color: #000;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -50,13 +52,16 @@ header.scrolled {
 .nav-links a:hover {
     color: #19457A;
 }
+.nav-links a.scrolled {
+    color:#fff ;
+}
 
 .home-section {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./imgs/background.webp);    
+    background-image: url(./imgs/fundo.jpg);    
     background-position: center;
     background-size: cover; /* Garante que a imagem cubra toda a área */
     background-position: center; /* Centraliza a imagem */
@@ -66,6 +71,17 @@ header.scrolled {
     padding: 0;
     transition: background 0.3s ease;
 }
+
+.home-section h1{
+    color: #000;
+    font-size: 3em;
+}
+
+.home-section p{
+    color: #000;
+    font-size: 1.3em;
+}
+
 
 .about-section {
     padding: 4vw ;

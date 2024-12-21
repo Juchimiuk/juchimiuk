@@ -18,6 +18,24 @@ window.addEventListener('scroll', function() {
     }
 });
 
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('.nav-links a');
+    if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+});
+
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('.nav-links a');
+    if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+});
+
 // Menu responsivo
 const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
