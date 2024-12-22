@@ -49,17 +49,26 @@
         </section>
         
 
-    <section id="projects" class="projects-section">
-        <h2>Meus Projetos</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <img src="./assets/imgs/logo.svg" class="logo-four" alt="Projeto 1">
+        <section id="projects" class="projects-section">
+            <h2>Meus Projetos</h2>
+            <div class="project-grid">
+              <div class="project-card">
+                <div class="carousel">
+                  <div class="carousel-images">
+                    <img src="./assets/imgs/certificadooracle.png" alt="Imagem 1 do projeto">
+                    <img src="./assets/imgs/diploma-ingles.png" alt="Imagem 2 do projeto">
+                    <img src="./assets/imgs/diploma-tecnico.jpeg" alt="Imagem 3 do projeto">
+                  </div>
+                  <button class="prev-btn">❮</button>
+                  <button class="next-btn">❯</button>
+                </div>
                 <h3>FourLogistics</h3>
                 <p>Sistema WMS desenvolvido para facilitar a logística de armazéns.</p>
                 <a href="#" class="btn">Ver no GitHub</a>
+              </div>
             </div>
-        </div>
-    </section>
+          </section>
+          
 
     <section id="diploma" class="diploma-section">
         <h2>Minhas Formações</h2>
@@ -109,5 +118,33 @@
     </footer>
 
     <script src="./assets/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const carousels = document.querySelectorAll('.carousel');
+  
+    carousels.forEach(carousel => {
+      const images = carousel.querySelector('.carousel-images');
+      const prevBtn = carousel.querySelector('.prev-btn');
+      const nextBtn = carousel.querySelector('.next-btn');
+  
+      let index = 0;
+  
+      const updateCarousel = () => {
+        images.style.transform = `translateX(-${index * 100}%)`;
+      };
+  
+      nextBtn.addEventListener('click', () => {
+        index = (index + 1) % images.children.length; // Volta ao início ao chegar no final
+        updateCarousel();
+      });
+  
+      prevBtn.addEventListener('click', () => {
+        index = (index - 1 + images.children.length) % images.children.length; // Volta ao final se for negativo
+        updateCarousel();
+      });
+    });
+  });
+  
+    </script>
 </body>
 </html>

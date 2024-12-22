@@ -204,6 +204,8 @@ header {
     display: flex; /* Organiza os itens lado a lado */
     flex-wrap: wrap; /* Permite quebrar para a próxima linha se o espaço acabar */
     gap: 20px; /* Espaço entre os itens */
+    justify-content: space-evenly; /* Distribui o espaço uniformemente entre os cartões */
+
 }
 
 .project-card {
@@ -212,12 +214,69 @@ header {
     background-color: #2c2c2e;
     padding: 20px;
     border-radius: 10px;
-    width: 300px;
+    width: 450px;
     transition: transform 0.3s ease;
 }
-.logo-four{
-    width: 5vw;
-}
+
+
+
+
+
+
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Esconde as imagens fora da área visível */
+    border-radius: 10px;
+  }
+  
+  .carousel-images {
+    display: flex; /* Alinha as imagens lado a lado */
+    transition: transform 0.5s ease-in-out; /* Suaviza o movimento */
+  }
+  
+  .carousel-images img {
+    width: 100%; /* As imagens ocupam todo o espaço disponível */
+    flex-shrink: 0; /* Mantém o tamanho original das imagens */
+  }
+  
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .prev-btn:hover,
+  .next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+
+
+
+
+
+
+
+
+
+
 
 .project-card:hover {
     transform: scale(1.05);
@@ -239,6 +298,8 @@ header {
 .btn:hover {
     background-color: #122c4d;
 }
+
+
 .diploma-section{
     margin-left: 20px;
     height: 100vh;
