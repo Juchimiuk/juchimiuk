@@ -7,20 +7,26 @@
     <title>Henrique Juchimiuk - Portfólio</title>
     <link rel="stylesheet" href="./assets/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/imgs/memoji.png" type="image/x-icon">
+
+
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">Henrique Juchimiuk</div>
-        
+        <div class="container">
+          <h1 class="logo">Meu<span>Portfólio</span></h1>
+          <nav>
             <ul class="nav-links">
-                <li><a href="#about">Sobre Mim</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#contact">Contato</a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#projects">Projetos</a></li>
+              <li><a href="#diploma">Formações</a></li>
+              <li><a href="#contact">Contato</a></li>
             </ul>
-        </nav>
-    </header>
-    </header>
+            <a href="#contact" class="cta">Contrate-me</a>
+          </nav>
+        </div>
+      </header>
 
     <section id="home" class="home-section">
         <div class="home-content">
@@ -33,10 +39,11 @@
             <h2>Sobre Mim</h2>
             <div class="about-content">
                 <img src="./assets/imgs/eu.jpg" alt="Henrique Juchimiuk">
-                <p>
-                    Sou um desenvolvedor front-end apaixonado por criar interfaces modernas e funcionais. Tenho experiência em tecnologias como HTML, CSS, JavaScript, PHP e SQL. Além disso, estou sempre buscando me atualizar com as últimas tendências do desenvolvimento web.
+                <p>Sou um desenvolvedor Web focado em Frontend, construindo e gerenciando o Front-end de sites e aplicações Web que levam ao sucesso do produto geral. Confira alguns dos meus trabalhos na seção <a href="#projects">PROJETOS.</a>
                     <br><br>
-                    Minha abordagem é focada na acessibilidade e na criação de soluções simples, mas impactantes. Estou sempre aberto a novos desafios e projetos que me permitam crescer como profissional.
+                    Tenho experiência em tecnologias como HTML, CSS, JavaScript, PHP e SQL. Além disso, estou sempre me buscando atualizar com as últimas tendências de desenvolvimento web.
+                    <br><br>
+                    Estou aberto a oportunidades de trabalho onde possa contribuir, aprender e crescer. Se tiver uma boa oportunidade que corresponda às minhas competências e experiência, não hesite em contactar-me.
                 </p>
             </div>
         </section>
@@ -54,14 +61,40 @@
         </div>
     </section>
 
+    <section id="diploma" class="diploma-section">
+        <h2>Minhas Formações</h2>
+        <div class="diploma-grid">
+            <div class="diploma-card">
+                <img src="./assets/imgs/diploma-tecnico.jpeg" class="dpl-tec" alt="Diploma Tecnico">
+                <h3>Técnico em Desenvolvimento de Sistemas</h3>
+                <p>Suo formado em Desenvolvimento de Sistemas pelo SENAI, curso técnico com duração de 2 anos. Durante a formação, adquiri sólidos conhecimentos em programação, análise de sistemas e desenvolvimento de soluções tecnológicas. Minha trajetória no SENAI foi marcada pela aplicação prática de tecnologias atuais e pela criação de projetos inovadores que integram teoria e prática no universo do desenvolvimento de software.</p>
+                <a href="#" class="btn">Ver Mais</a>
+            </div>
+
+            <div class="diploma-card">
+                <img src="./assets/imgs/diploma-ingles.png" class="dpl-ingles" alt="Diploma Tecnico">
+                <h3>Curso de Inglês</h3>
+                <p>Concluí um curso intensivo de Inglês com duração de 2 anos, onde desenvolvi habilidades em leitura, escrita, conversação e compreensão auditiva. Meu nível atual de proficiência é B1, certificado por avaliações padrão. Essa experiência me permite comunicar com confiança em contextos diversos, tanto profissionais quanto pessoais, e continuar evoluindo no aprendizado do idioma.</p>
+                <a href="#" class="btn">Ver Mais</a>
+            </div>
+
+            <div class="diploma-card">
+                <img src="./assets/imgs/certificadooracle.png" class="dpl-sql" alt="Diploma SQL Oracle">
+                <h3>Curso de SQL</h3>
+                <p>Durante este curso, aprendi os fundamentos essenciais do SQL, com ênfase no uso da plataforma Oracle. O foco foi em aprender a criar e consultar bancos de dados, utilizando comandos básicos como SELECT, INSERT, UPDATE e DELETE. Também explorei a estrutura de tabelas e como realizar consultas simples para manipular e recuperar dados. Essa base inicial me proporcionou uma compreensão sólida de SQL, essencial para dar os próximos passos no aprofundamento de técnicas mais avançadas.</p>
+                <a href="#" class="btn">Ver Mais</a>
+            </div>
+
+        </div>  
+    </section>
     <section id="contact" class="contact-section">
         <h2>Contato</h2>
         <p>Entre em contato através das redes sociais.</p>
         <div> 
-            <a class="social-chanel" href="https://instagram.com/juchimiuk_" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-            <a class="social-chanel" href="https://discord.gg/G9GPg5SA75" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
-            <a class="social-chanel" href = "mailto:henrique_pereira4@estudante.sesisenai.org.br"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-            <a class="social-chanel" href="https://www.linkedin.com/in/juchimiuk/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+            <a class="social-chanel" href="https://instagram.com/juchimiuk_" target="_blank"><img class="img1" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+            <a class="social-chanel" href="https://discord.gg/G9GPg5SA75" target="_blank"><img class="img2" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
+            <a class="social-chanel" href = "mailto:henrique_pereira4@estudante.sesisenai.org.br"><img class="img3" src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+            <a class="social-chanel" href="https://www.linkedin.com/in/juchimiuk/" target="_blank"><img class="img4" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
           </div>
           
     </section>
