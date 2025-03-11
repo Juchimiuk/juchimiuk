@@ -1,8 +1,8 @@
 ## Hi there 👋
 
-- 🔭 Atualemte atuo em Front-End
-- 🌱 Estou com foco em aprender tecnologias como: HTML, CSS e JS
-- 🤔 Meu desafio atual é aprender JS.
+- 🔭 Atualmente atuo em Front-End  
+- 🌱 Estou com foco em aprender tecnologias como: HTML, CSS e JS  
+- 🤔 Meu desafio atual é aprender JS.  
 
 <div>
   <a href="https://github.com/Juchimiuk">
@@ -14,8 +14,9 @@
   <img align="center" alt="Juck-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Juck-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Juck-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <!--<img align="center" alt="Juck-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">-->
-  
+  <img align="center" alt="Juck-Tailwind" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg">
+  <img align="center" alt="Juck-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="Juck-TypeScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
 </div>
   
   ##
