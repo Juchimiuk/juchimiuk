@@ -1,8 +1,5 @@
-## Hi there 👋
 
-- 🔭 Atualmente atuo em Front-End  
-- 🌱 Estou com foco em aprender tecnologias como: HTML, CSS e JS  
-- 🤔 Meu desafio atual é aprender JS.  
+ Dev em Front-End 
 
 <div>
   <a href="https://github.com/Juchimiuk">
